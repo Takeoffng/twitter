@@ -19,7 +19,7 @@ const tweet = async () => {
     }
 };
 
-const job = new CronJob ("51 5 * * *", () => {
+const job = new CronJob ("55, 5, * * *", () => {
     tweet();
 });
 
